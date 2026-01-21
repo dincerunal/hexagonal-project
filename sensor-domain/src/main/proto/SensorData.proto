@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.dincerunal.app;
+
+
+
+// set outer class name
+option java_outer_classname = "SensorData";
+
+// called for SensorData.newBuilder() 
+option java_multiple_files = true; 
+
+message SensorDataMessage { 
+  string sensor_id = 1;
+  double temperature = 2;
+  int64 timestamp = 3; 
+}
