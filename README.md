@@ -37,9 +37,20 @@ mvn test
 mvn -DskipTests package
 ```
 
-4. Run the produced JAR (if packaging is `jar` and main class is configured):
+4. Run the Kafka 
+
 ```sh
-java -jar target/hexagonal-project-0.1.0-SNAPSHOT.jar
+./runKafka.sh --start
+```
+
+5. Run Consumer and Producer app
+
+```sh
+./startConsumer.sh
+```
+
+```sh
+./startProducer.sh
 ```
 Adjust the artifact file name above to match the `artifactId`/`version` declared in your `pom.xml`. If you use Spring Boot, Quarkus, or another framework, update the run instructions accordingly.
 
