@@ -1,0 +1,59 @@
+# Maven / Java
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# Eclipse
+.settings/
+bin/
+
+# Gradle (if present)
+.gradle/
+build/
+
+# Compiled class files
+*.class
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and local files
+.env
+*.local
+*.properties
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Other
+coverage/
